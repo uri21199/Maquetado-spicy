@@ -1,0 +1,10 @@
+::-webkit-scrollbar{width: .5rem;}
+::-webkit-scrollbar-track{background: #ccc;}
+::-webkit-scrollbar-track-piece{background: #ccc;}
+::-webkit-scrollbar-thumb{background: #999;border-radius: 5px;}
+::-webkit-scrollbar-thumb:hover{background: #888;}
+
+
+.instagram-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif!important; font-size: .8rem;  line-height: 1.5; padding: .5rem .25rem 0 .25rem;}
+.instagram-top{position: fixed; top: 0; width: 100%;}
+.instagram-bottom{position: fixed; bottom: 0; width: 100%;}

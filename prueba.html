@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <base href="/">
+    <title>Inicio - We Are Spicy</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="facebook-domain-verification" content="231ic9iejpnv64cuhwiblgv7z5evhf">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="resources/img/icons/spicy-red.svg">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link href="./resources/css/styles_v2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div style="width: 350px; height: 250px;">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script>
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow'],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: false
+                }
+            }
+        }
+    });
+    </script>
+     
+
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/popper.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/custom.js"></script>
+
+</body>
+</html>

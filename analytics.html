@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <base href="/">
+    <title>Analytics - We Are Spicy</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="facebook-domain-verification" content="231ic9iejpnv64cuhwiblgv7z5evhf">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="resources/img/icons/spicy-red.svg">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link href="./resources/css/styles_v2.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+    <aside class="aside">
+        <div class="logo-container">
+            <a href="/"><i class="icon icon-spicy"></i></a>
+        </div>
+        <ul class="aside-list col-12">
+            <li><a href="/analytics" title="Analytics"><i class="icon icon-chart"></i><span class="list-item">Analytics</span></a></li>
+            <li><a href="/consultoria" title="Consultoria"><i class="icon icon-message"></i><span>Consultoria</span></a>
+            </li>
+            <li><a href="/extras" title="Extras"><i class="icon icon-light"></i><span>Extras</span></a></li>
+            <li><a href="/pedidos" title="Pedidos"><i class="icon icon-file"></i><span>Pedidos</span></a></li>
+            <li><a href="/social-media" title="Social media"><i class="icon icon-calendar"></i><span>Social media</span></a></li>
+            <li><a href="/contacto" title="Contacto"><i class="icon icon-help"></i><span>Contacto</span></a></li>
+        </ul>
+        <div style="position: absolute; bottom: 10%; width: 100%; text-align: center;">
+            <div id="menuToggle"><i class="icon icon-chevron"></i></div>
+        </div>
+    </aside>
+    <section id="right-panel" class="right-panel">
+        <header class="header navbar">
+            <!--Crear dropdown-->
+            <div class="dropdown-accounts">
+                <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cuenta
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href="" class="dropdown-item">Cuenta</a>
+                    <a href="" class="dropdown-item">Cuenta</a>
+                    <a href="" class="dropdown-item">Cuenta</a>
+                </div>
+            </div>
+            <div class="header-icons ml-5">
+                <a href="/mensajes" title="Mensajes"><i class="icon icon-sm icon-message-red"></i></a>
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="#" title="Perfil"><i class="profile icon icon-sm icon-user-red"></i></a>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Mi cuenta</a></li>
+                        <li><a class="dropdown-item" href="#">Mis redes sociales</a></li>
+                        <li><a class="dropdown-item" href="#">Cuentas</a></li>
+                    </ul>
+                </div>
+                <a href="/salir" title="Salir"><i class="icon icon-sm icon-out"></i></a>
+            </div>
+        </header>
+
+        <!-- bottom-menu -->
+        <div class="responsive-bottom-menu py-3">
+            <a href="/" class="mb-3" title="Inicio"><i class="icon icon-spicy"></i></a>
+            <a href="/analytics" title="Analytics"><i class="icon icon-chart"></i></a>
+            <a href="/social-media" title="Social Media"><i class="icon icon-calendar"></i></a>
+            <a href="/pedidos" title="Pedidos"><i class="icon icon-file"></i></a>
+            <a href="/contacto" title="Contacto"><i class="icon icon-help"></i></a>
+        </div>
+
+        <div id="content">
+            <div class="d-flex analytics-title px-5">
+                <h1 class="text-red title-index">Analytics</h1>
+                <div class="dropdown-export">
+                    <button class="btn btn-sm dropdown-toggle text-red" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Exportar
+                    </button>
+                    <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton3">
+                        <div>
+                            <p>A partir de:</p> <!--BACKEND: CALENDARIO-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <ul class="list-unstyled d-flex analytics-networks ml-5 mt-5">
+                <li class="mx-5"><a href="">Google Data</a></li>
+                <li class="mx-5"><a href="">Facebook</a></li>
+                <li class="mx-5"><a href="">Facebook Ads</a></li>
+                <li class="mx-5"><a href="">Instagram</a></li>
+            </ul>
+
+    
+            <div class="general-data mt-3 p-3">
+                <div class="general-data-top text-red d-flex align-items-center justify-content-between">
+                    <h4 class="px-4">Datos Generales</h4>
+                    <h5 class="px-4">Inversión total: --</h5>
+                </div>
+                <div class="general-data-body d-flex justify-content-center mt-3">
+                    <div class="data-item mx-4">
+                        <div class="data-item-number d-flex align-items-center flex-column bg-grey">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Impresiones</p>
+                        </div>
+                        <p class="text-red  mt-3 font-weight-bold">Costo promedio: %</p>
+                    </div>
+                    <div class="data-item mx-4">
+                        <div class="data-item-number d-flex align-items-center flex-column bg-grey">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Clicks</p>
+                        </div>
+                        <p class="text-red  mt-3 font-weight-bold">Costo promedio: %</p>
+                    </div>
+                    <div class="data-item mx-4">
+                        <div class="data-item-number d-flex align-items-center flex-column bg-grey">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Mensajes</p>
+                        </div>
+                        <p class="text-red  mt-3 font-weight-bold">Costo promedio: %</p>
+                    </div>
+                    <div class="data-item mx-4">
+                        <div class="data-item-number d-flex align-items-center flex-column bg-grey">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Leads</p>
+                        </div>
+                        <p class="text-red  mt-3 font-weight-bold">Costo promedio: %</p>
+                    </div>
+                    <div class="data-item mx-4">
+                        <div class="data-item-number d-flex align-items-center flex-column bg-grey">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Visitas</p>
+                        </div>
+                        <p class="text-red  mt-3 font-weight-bold">Costo promedio: %</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="abstract mt-5 p-3">
+                <div class="abstract-top text-red d-flex align-items-center justify-content-between">
+                    <h4 class="px-4">Resumen del rendimiento</h4>
+                    <div class="abstract-item mx-4 d-flex">
+                        <div class="abstract-item-number d-flex align-items-center flex-column bg-grey mx-3">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Alcance</p>
+                        </div>
+                        <div class="abstract-item-number d-flex align-items-center flex-column bg-grey mx-3">
+                            <p class="text-red number">--</p>
+                            <p class="text-body font-weight-bold">Costo por mil personas alcanzadas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abstract-body pb-5 mt-5">
+                    <div style="width: 100%;">
+                        <canvas id="myChart" style="height: 350px; width: 100%;"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="finish mt-5 p-3 d-flex justify-content-around">
+                <div class="finish-item">
+                    <p class="text-red font-weight-bold">Campaña</p>
+                    <p class="text-red font-weight-bold"></p>
+                </div>
+                <div class="finish-item">
+                    <p class="text-red font-weight-bold">Inversión</p>
+                    <p class="text-red font-weight-bold">--</p>
+                </div>
+                <div class="finish-item">
+                    <p class="text-red font-weight-bold">Resultado</p>
+                    <p class="text-red font-weight-bold">--</p>
+                </div>
+                <div class="finish-item">
+                    <p class="text-red font-weight-bold">Costo promedio</p>
+                    <p class="text-red font-weight-bold">--</p>
+                </div>
+                <div class="finish-item">
+                    <p class="text-red font-weight-bold">Alcance</p>
+                    <p class="text-red font-weight-bold">--</p>
+                </div>
+            </div>
+
+            <div class="campaign mt-5 w-75 p-2">
+                <div class="dropdown-campaign">
+                    <button class="btn btn-sm dropdown-toggle text-red d-flex align-items-center justify-content-between" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%;">
+                        Elegir campaña
+                        <span class="icon icon-sm icon-arrow-down"></span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <p class="dropdown-item">Campaña A</p>
+                        <p class="dropdown-item">Campaña B</p>
+                        <p class="dropdown-item">Campaña C</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="campaign-selected">
+
+            </div>
+        </div>
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/popper.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script>
+
+        //cambiar valor del button del dropdown
+        $('.dropdown-item').click(function(){
+            let text = $(this).text();
+            $('.dropdown-campaign button').text(text);
+            $(".dropdown-campaign button").append('<span class="icon icon-sm icon-arrow-down"></span>');
+
+            $(".campaign-selected").html(`
+            <h5 class="p-3 text-red font-weight-bold">${text}</h5>
+            <div class="d-flex justify-content-around pb-4">
+                <div class="campaign-items">
+                    <p class="text-red">Publicación</p>
+                    <img src="./resources/img/extras-fotos.jpg" alt="">
+                </div>
+                <div class="campaign-items">
+                    <p class="text-red">Imagen</p>
+                    <img src="./resources/img/extras-fotos.jpg" alt="">
+                </div>
+                <div class="campaign-items">
+                    <p class="text-red">Copy</p>
+                    <img src="./resources/img/extras-fotos.jpg" alt="">
+                </div>
+            </div>
+            `)
+        });
+
+        //uso de chartJS para la creación del gráfico
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['25 de nov', '26 de nov', '27 de nov', '28 de nov', '29 de nov', '30 de nov'],
+                datasets: [{
+                    label: 'Alcance',
+                    data: [0, 1100, 3202, 5101, 8034, 6493],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                responsive: false,
+            }
+        });
+        
+    </script>
+</body>
+</html>

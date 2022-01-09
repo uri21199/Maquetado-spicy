@@ -1,0 +1,245 @@
+/* fonts */
+@font-face{font-family: 'Monserrat'; src: url('../fonts/monserrat-light.ttf'); font-weight: 300; font-display: swap;}
+@font-face{font-family: 'Monserrat'; src: url('../fonts/monserrat-regular.ttf'); font-weight: 400; font-display: swap;}
+@font-face{font-family: 'Monserrat'; src: url('../fonts/monserrat-medium.ttf'); font-weight: 600; font-display: swap;}
+@font-face{font-family: 'Monserrat'; src: url('../fonts/monserrat-bold.ttf'); font-weight: 700; font-display: swap;}
+
+/* Primera pantalla | Datos personales */
+body{
+    background-color: #e5e5e5;
+}
+
+#first-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-logo{width: 100%; text-align: center; margin-bottom: 20px;}
+.box-logo img{max-width: 100px;}
+
+.main-text{
+    text-align: center;
+    width: 100%;
+}
+
+.main-text h1,
+.main-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Monserrat';
+    line-height: 22px;
+}
+
+.main-text h1{color: #bf3e3e;}
+.main-text h2{color: #000; margin-bottom: 20px;}
+
+.formulario{width: 20%;}
+
+label{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    font-family: 'Monserrat';
+    display: block;
+}
+
+input{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
+
+.boton{
+    width: 100%;
+    background-color: #bf3e3e;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Monserrat';
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton:hover{background-color: #b92323;}
+
+/* Segunda pantalla | Cuestionario */
+#second-section{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+}
+.formulario p{
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    font-family: 'Monserrat';
+    margin: 0;
+}
+.input-box{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Tercer pantalla | Usuario y contraseña */
+#three-section{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+}
+
+.terminos{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.terminos p{
+    font-size: 10px;
+    margin-left: 7px;
+    color: #000;
+}
+
+.terminos p a{
+    color: #000;
+    text-decoration: underline #000;
+}
+
+input[type=checkbox]{
+    width: 10%;
+}
+
+.boton-3{
+    width: 100%;
+    background-color: #bf3e3e;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Monserrat';
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton-3:hover{background-color: #b92323;}
+
+
+/* Cuarta pantalla | Configurá tu cuenta ahora */
+#four-section{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+}
+
+.box-logo{width: 100%; text-align: center; margin-bottom: 20px;}
+.box-logo img{max-width: 100px;}
+
+.main-text{
+    text-align: center;
+    width: 100%;
+}
+
+.main-text h1,
+.main-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Monserrat';
+    line-height: 22px;
+}
+
+.main-text h1{color: #bf3e3e;}
+.main-text h2{color: #000; margin-bottom: 20px;}
+
+.main-text p{
+    font-size: 15px;
+    margin: auto;
+    width: 25%;
+    text-align: justify;
+    line-height: 1.1;
+}
+
+.boton-check{text-align: center;}
+
+.boton-4{
+    width: 100%;
+    background-color: #bf3e3e;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 5px 15px;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Monserrat';
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton-4:hover{background-color: #b92323;}
+
+/* Configura tu cuenta */
+.configurar-cuenta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#rubro, #obstaculo, #objetivo, #publico, #etapa{
+    width: 100%;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    font-family: 'Monserrat';
+    color: #000;
+    border-radius: 3px;
+}
+
+.configurar-cuenta .encuesta > label{margin-top: 12px;}
+
+select:focus{outline:2px solid #b92323;}
+
+/* Mobile S, M, L */
+@media screen and (max-width: 768px) and (min-width: 320px){
+    /* Registro */
+    .main-text p{width: 70%;}
+    .formulario{width: 70%;}
+    /* Encuesta */
+    .encuesta{ width: 80%;}
+    .btn-encuesta{margin-bottom: 30px;}
+}
